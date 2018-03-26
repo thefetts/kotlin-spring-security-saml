@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class AppController {
 
-    @GetMapping("/landing")
+    @GetMapping
     fun getLanding(@AuthenticationPrincipal user: OurUserDetails): String {
         return "Great Job! ${user.userId}"
     }

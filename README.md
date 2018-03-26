@@ -1,3 +1,7 @@
+## Spring Security SAML Example
+Configuration heavily informed by [this repo](https://github.com/vdenotaris/spring-boot-security-saml-sample)
+
+
 ## Setting up local SSO IDP
 1. Make sure you have node installed
 1. `git clone https://github.com/mcguinness/saml-idp.git`
